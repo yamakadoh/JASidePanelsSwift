@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F85C5C51A6B430F00B345CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85C5C41A6B430F00B345CF /* AppDelegate.swift */; };
+		3F85C5CA1A6B430F00B345CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F85C5C81A6B430F00B345CF /* Main.storyboard */; };
+		3F85C5CC1A6B430F00B345CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F85C5CB1A6B430F00B345CF /* Images.xcassets */; };
+		3F85C5CF1A6B430F00B345CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F85C5CD1A6B430F00B345CF /* LaunchScreen.xib */; };
+		3F85C5DB1A6B430F00B345CF /* JASidePanelsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85C5DA1A6B430F00B345CF /* JASidePanelsSwiftTests.swift */; };
+		3F85C5E91A6B43BE00B345CF /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F85C5E61A6B43BE00B345CF /* JASidePanelController.m */; };
+		3F85C5EF1A6D271800B345CF /* JACenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85C5EE1A6D271800B345CF /* JACenterViewController.swift */; };
+		3F85C5F11A6D29C300B345CF /* JALeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85C5F01A6D29C300B345CF /* JALeftViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F85C5D51A6B430F00B345CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F85C5B71A6B430F00B345CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F85C5BE1A6B430F00B345CF;
+			remoteInfo = JASidePanelsSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F85C5BF1A6B430F00B345CF /* JASidePanelsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JASidePanelsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F85C5C31A6B430F00B345CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F85C5C41A6B430F00B345CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F85C5C91A6B430F00B345CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F85C5CB1A6B430F00B345CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F85C5CE1A6B430F00B345CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F85C5D41A6B430F00B345CF /* JASidePanelsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JASidePanelsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F85C5D91A6B430F00B345CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F85C5DA1A6B430F00B345CF /* JASidePanelsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JASidePanelsSwiftTests.swift; sourceTree = "<group>"; };
+		3F85C5E51A6B43BE00B345CF /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		3F85C5E61A6B43BE00B345CF /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		3F85C5E71A6B43BE00B345CF /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		3F85C5E81A6B43BE00B345CF /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		3F85C5EB1A6B44BA00B345CF /* JASidePanelsSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JASidePanelsSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F85C5EE1A6D271800B345CF /* JACenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JACenterViewController.swift; sourceTree = "<group>"; };
+		3F85C5F01A6D29C300B345CF /* JALeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JALeftViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F85C5BC1A6B430F00B345CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F85C5D11A6B430F00B345CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F85C5B61A6B430F00B345CF = {
+			isa = PBXGroup;
+			children = (
+				3F85C5C11A6B430F00B345CF /* JASidePanelsSwift */,
+				3F85C5D71A6B430F00B345CF /* JASidePanelsSwiftTests */,
+				3F85C5C01A6B430F00B345CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F85C5C01A6B430F00B345CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F85C5BF1A6B430F00B345CF /* JASidePanelsSwift.app */,
+				3F85C5D41A6B430F00B345CF /* JASidePanelsSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F85C5C11A6B430F00B345CF /* JASidePanelsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3F85C5E41A6B43BE00B345CF /* JASidePanels */,
+				3F85C5C41A6B430F00B345CF /* AppDelegate.swift */,
+				3F85C5C81A6B430F00B345CF /* Main.storyboard */,
+				3F85C5CB1A6B430F00B345CF /* Images.xcassets */,
+				3F85C5CD1A6B430F00B345CF /* LaunchScreen.xib */,
+				3F85C5C21A6B430F00B345CF /* Supporting Files */,
+				3F85C5EB1A6B44BA00B345CF /* JASidePanelsSwift-Bridging-Header.h */,
+				3F85C5EE1A6D271800B345CF /* JACenterViewController.swift */,
+				3F85C5F01A6D29C300B345CF /* JALeftViewController.swift */,
+			);
+			path = JASidePanelsSwift;
+			sourceTree = "<group>";
+		};
+		3F85C5C21A6B430F00B345CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F85C5C31A6B430F00B345CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F85C5D71A6B430F00B345CF /* JASidePanelsSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F85C5DA1A6B430F00B345CF /* JASidePanelsSwiftTests.swift */,
+				3F85C5D81A6B430F00B345CF /* Supporting Files */,
+			);
+			path = JASidePanelsSwiftTests;
+			sourceTree = "<group>";
+		};
+		3F85C5D81A6B430F00B345CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F85C5D91A6B430F00B345CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F85C5E41A6B43BE00B345CF /* JASidePanels */ = {
+			isa = PBXGroup;
+			children = (
+				3F85C5E51A6B43BE00B345CF /* JASidePanelController.h */,
+				3F85C5E61A6B43BE00B345CF /* JASidePanelController.m */,
+				3F85C5E71A6B43BE00B345CF /* UIViewController+JASidePanel.h */,
+				3F85C5E81A6B43BE00B345CF /* UIViewController+JASidePanel.m */,
+			);
+			path = JASidePanels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F85C5BE1A6B430F00B345CF /* JASidePanelsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F85C5DE1A6B430F00B345CF /* Build configuration list for PBXNativeTarget "JASidePanelsSwift" */;
+			buildPhases = (
+				3F85C5BB1A6B430F00B345CF /* Sources */,
+				3F85C5BC1A6B430F00B345CF /* Frameworks */,
+				3F85C5BD1A6B430F00B345CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JASidePanelsSwift;
+			productName = JASidePanelsSwift;
+			productReference = 3F85C5BF1A6B430F00B345CF /* JASidePanelsSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F85C5D31A6B430F00B345CF /* JASidePanelsSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F85C5E11A6B430F00B345CF /* Build configuration list for PBXNativeTarget "JASidePanelsSwiftTests" */;
+			buildPhases = (
+				3F85C5D01A6B430F00B345CF /* Sources */,
+				3F85C5D11A6B430F00B345CF /* Frameworks */,
+				3F85C5D21A6B430F00B345CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F85C5D61A6B430F00B345CF /* PBXTargetDependency */,
+			);
+			name = JASidePanelsSwiftTests;
+			productName = JASidePanelsSwiftTests;
+			productReference = 3F85C5D41A6B430F00B345CF /* JASidePanelsSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F85C5B71A6B430F00B345CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yamakadoh;
+				TargetAttributes = {
+					3F85C5BE1A6B430F00B345CF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3F85C5D31A6B430F00B345CF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3F85C5BE1A6B430F00B345CF;
+					};
+				};
+			};
+			buildConfigurationList = 3F85C5BA1A6B430F00B345CF /* Build configuration list for PBXProject "JASidePanelsSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F85C5B61A6B430F00B345CF;
+			productRefGroup = 3F85C5C01A6B430F00B345CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F85C5BE1A6B430F00B345CF /* JASidePanelsSwift */,
+				3F85C5D31A6B430F00B345CF /* JASidePanelsSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F85C5BD1A6B430F00B345CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F85C5CA1A6B430F00B345CF /* Main.storyboard in Resources */,
+				3F85C5CF1A6B430F00B345CF /* LaunchScreen.xib in Resources */,
+				3F85C5CC1A6B430F00B345CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F85C5D21A6B430F00B345CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F85C5BB1A6B430F00B345CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F85C5EF1A6D271800B345CF /* JACenterViewController.swift in Sources */,
+				3F85C5C51A6B430F00B345CF /* AppDelegate.swift in Sources */,
+				3F85C5F11A6D29C300B345CF /* JALeftViewController.swift in Sources */,
+				3F85C5E91A6B43BE00B345CF /* JASidePanelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F85C5D01A6B430F00B345CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F85C5DB1A6B430F00B345CF /* JASidePanelsSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F85C5D61A6B430F00B345CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F85C5BE1A6B430F00B345CF /* JASidePanelsSwift */;
+			targetProxy = 3F85C5D51A6B430F00B345CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F85C5C81A6B430F00B345CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F85C5C91A6B430F00B345CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F85C5CD1A6B430F00B345CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F85C5CE1A6B430F00B345CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F85C5DC1A6B430F00B345CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F85C5DD1A6B430F00B345CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F85C5DF1A6B430F00B345CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = JASidePanelsSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JASidePanelsSwift/JASidePanelsSwift-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		3F85C5E01A6B430F00B345CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = JASidePanelsSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JASidePanelsSwift/JASidePanelsSwift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		3F85C5E21A6B430F00B345CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JASidePanelsSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JASidePanelsSwift.app/JASidePanelsSwift";
+			};
+			name = Debug;
+		};
+		3F85C5E31A6B430F00B345CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JASidePanelsSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JASidePanelsSwift.app/JASidePanelsSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F85C5BA1A6B430F00B345CF /* Build configuration list for PBXProject "JASidePanelsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F85C5DC1A6B430F00B345CF /* Debug */,
+				3F85C5DD1A6B430F00B345CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F85C5DE1A6B430F00B345CF /* Build configuration list for PBXNativeTarget "JASidePanelsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F85C5DF1A6B430F00B345CF /* Debug */,
+				3F85C5E01A6B430F00B345CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F85C5E11A6B430F00B345CF /* Build configuration list for PBXNativeTarget "JASidePanelsSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F85C5E21A6B430F00B345CF /* Debug */,
+				3F85C5E31A6B430F00B345CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F85C5B71A6B430F00B345CF /* Project object */;
+}
