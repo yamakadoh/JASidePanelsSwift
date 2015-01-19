@@ -287,9 +287,9 @@ static char ja_kvoContext;
         [container.layer addAnimation:animation forKey:@"shadowPath"];
     }
     container.layer.shadowPath = shadowPath.CGPath;	
-    container.layer.shadowColor = [UIColor blackColor].CGColor;
-    container.layer.shadowRadius = 10.0f;
-    container.layer.shadowOpacity = 0.75f;
+    container.layer.shadowColor = [UIColor whiteColor].CGColor;
+    container.layer.shadowRadius = 0.0f;
+    container.layer.shadowOpacity = 1.0f;
     container.clipsToBounds = NO;
 }
 
